@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Categories from '../home/Categories'
 import productsData from '../../data/products.json'
 import ProductCards from './ProductCards'
-import ShopFiltering from './shopFiltering'
+import ShopFiltering from './ShopFiltering'
 
 const filters = {
     categories:['all', 'clothing', 'shoes', 'accessories', 'sunglasses', 'hat', 'socks'],
