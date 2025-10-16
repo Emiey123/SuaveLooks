@@ -47,7 +47,7 @@ const router = createBrowserRouter([
     }
 ],
 {
-    basename:"/SuaveLooks",
+    basename: import.meta.env.MODE === "github" ? "/SuaveLooks" : "/",
 }
 )
 
